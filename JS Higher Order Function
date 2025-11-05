@@ -74,3 +74,8 @@ function slow(num) {
 var fast = memoize(slow);
 console.log(fast(5)); // Computing... 10
 console.log(fast(5)); // 10 (cached)
+
+output:-
+Computing...
+10
+10
