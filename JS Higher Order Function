@@ -38,3 +38,16 @@ console.log(res);
 
 output:-
 10
+
+2. Currying
+Currying transforms a function that takes multiple arguments into a series of functions that each take one argument. This allows partial application of the function.
+function mul(x) {
+    return function(y) {
+        return x * y;
+  };
+}
+var mulFn = mul(2);
+console.log(mulFn(5));
+
+output:-
+10
