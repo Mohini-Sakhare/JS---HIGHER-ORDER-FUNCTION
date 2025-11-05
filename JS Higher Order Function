@@ -17,3 +17,24 @@ fun2(fun);
 
 output:-
 Hello, World
+
+Advanced Techniques with Higher Order Functions
+1. Function Composition
+Function composition is the process of combining multiple functions to create a new function. The composed function applies multiple operations in sequence.
+function add(x) {
+    return x + 2;
+}
+function mul(x) {
+    return x * 3;
+}
+
+function compose(f, g) {
+    return function(x) {
+        return f(g(x));
+  };
+}
+var res = compose(add, mul)(4);
+console.log(res);
+
+output:-
+10
