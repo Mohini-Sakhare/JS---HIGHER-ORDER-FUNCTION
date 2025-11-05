@@ -51,3 +51,26 @@ console.log(mulFn(5));
 
 output:-
 10
+
+3. Memoization
+Memoization is a technique where function results are cached so that repeated calls with the same arguments return faster. This is particularly useful for expensive function calls
+function memoize(func) {
+    var cache = {};
+    return function (arg) {
+        if (cache[arg]) {
+            return cache[arg];
+        } else {
+            var res = func(arg);
+            cache[arg] = res;
+            return res;
+        }
+    };
+}
+function slow(num) {
+    console.log("Computing...");
+    return num * 2;
+}
+
+var fast = memoize(slow);
+console.log(fast(5)); // Computing... 10
+console.log(fast(5)); // 10 (cached)
