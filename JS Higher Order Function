@@ -28,6 +28,14 @@ console.log(square);
 
 output:- 1,4,9,16,25
 
+2. filter
+The filter function is used to create a new array containing elements that satisfy a given condition.
+const n = [1, 2, 3, 4, 5];
+const even = n.filter((num) => num % 2 === 0);
+console.log(even);
+
+output:-
+2,4
 
 
 @@ Advanced Techniques with Higher Order Functions
