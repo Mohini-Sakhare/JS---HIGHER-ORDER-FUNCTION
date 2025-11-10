@@ -37,6 +37,13 @@ console.log(even);
 output:-
 2,4
 
+3. reduce
+The reduce function accumulates array elements into a single value based on a callback function.
+const n = [1, 2, 3, 4, 5];
+const sum = n.reduce((acc, curr) => acc + curr, 0);
+console.log(sum);
+
+output: 15
 
 @@ Advanced Techniques with Higher Order Functions
 1. Function Composition
