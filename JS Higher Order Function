@@ -18,7 +18,19 @@ fun2(fun);
 output:-
 Hello, World
 
-Advanced Techniques with Higher Order Functions
+@@ Popular Higher Order Functions in JavaScript
+1. map
+The map function is used to transform an array by applying a callback function to each element. 
+It returns a new array.
+const n = [1, 2, 3, 4, 5];
+const square = n.map((num) => num * num);
+console.log(square);
+
+output:- 1,4,9,16,25
+
+
+
+@@ Advanced Techniques with Higher Order Functions
 1. Function Composition
 Function composition is the process of combining multiple functions to create a new function. The composed function applies multiple operations in sequence.
 function add(x) {
