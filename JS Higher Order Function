@@ -53,6 +53,16 @@ n.forEach((num) => console.log(num * 2));
 output :
 2 4 6
 
+5. find
+The find function returns the first element in the array that satisfies a given condition.
+const n = [1, 2, 3, 4, 5];
+const fEven = n.find((num) => num % 2 === 0);
+console.log(fEven);
+
+output:-
+2
+
+
 @@ Advanced Techniques with Higher Order Functions
 1. Function Composition
 Function composition is the process of combining multiple functions to create a new function. The composed function applies multiple operations in sequence.
