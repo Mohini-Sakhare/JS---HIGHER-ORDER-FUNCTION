@@ -71,6 +71,15 @@ console.log(hasNeg);
 output:-
 false
 
+7. every
+The every function checks if all array elements satisfy a condition.
+const n = [1, 2, 3, 4, 5];
+const allPos = n.every((num) => num > 0);
+console.log(allPos)
+
+output:-
+false
+
 
 @@ Advanced Techniques with Higher Order Functions
 1. Function Composition
