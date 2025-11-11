@@ -62,6 +62,15 @@ console.log(fEven);
 output:-
 2
 
+6. some
+The some function checks if at least one array element satisfies a condition.
+const n = [1, 2, 3, 4, 5];
+const hasNeg = n.some((num) => num < 0);
+console.log(hasNeg);
+
+output:-
+false
+
 
 @@ Advanced Techniques with Higher Order Functions
 1. Function Composition
