@@ -45,6 +45,14 @@ console.log(sum);
 
 output: 15
 
+4. forEach
+The forEach function executes a provided function once for each array element.
+const n = [1, 2, 3];
+n.forEach((num) => console.log(num * 2));
+
+output :
+2 4 6
+
 @@ Advanced Techniques with Higher Order Functions
 1. Function Composition
 Function composition is the process of combining multiple functions to create a new function. The composed function applies multiple operations in sequence.
